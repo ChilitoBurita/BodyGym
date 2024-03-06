@@ -1,0 +1,217 @@
+@charset "utf-8";
+@import url("Style.css");
+/* CSS Document */
+body{
+	background: #E2E1E1; color: #583F2B; font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';margin: 0;
+}
+footer{
+	background-color: #636363;
+	color: aliceblue;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.img100{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+ [class*="col-"] {
+padding:15px ;
+}
+
+.logo{
+	display: inline;	
+	margin-top: 10px;
+}
+
+.center {  
+  	width: 80%;
+ 	margin: auto;	
+}
+
+.subtitle {
+  	font-family: "Alex Brush";
+  	font-size: 30px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.boxshadow{
+    background-color: white;
+    box-shadow:0 0 5px #666;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px; 
+	margin-bottom: 20px;
+	height: 100%}
+
+.menu{ 
+	margin-top: 5px; 
+	display: none;
+	
+}
+.menu ul {  
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+
+	
+}
+.menu ul li { display: block; }
+
+.menu ul li a
+{  
+    /*background:#018BFF; */  
+    color: #787676;
+    font-size: 20px;    
+	text-transform:uppercase;
+    padding: 10px 20px;        
+	display: block;   
+	text-decoration:none;
+	border-bottom: 1px solid #5E5B5B
+}
+.menu ul li a:hover { 
+    background:#090378  ;  
+    color:gold;
+	
+}
+.menu ul ul {
+    position: absolute;
+    left: 0;    
+	top: 100%;
+    width: 200%;   
+	display: none;
+}
+.menu ul ul li { 
+    float:none; 
+	display: block; 
+    
+}
+.menu ul li:hover >ul { display: block}
+
+
+
+/*khai báo vị trí*/
+.navbar{
+	position: relative;	
+}
+
+.navbar .buttonMenu{
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+
+
+.SignUpForm{ 
+    padding: 10px; 
+	width: 100%; 
+	margin-top: 10px; 
+    margin-bottom: 10px; 
+	border: 1px solid #ccc; 
+    border-radius: 5px; 
+	font-size: 16px
+}
+
+#Signup label{ 
+	font-weight: bold; 
+	margin: 5px 0;
+	border-radius: 10px;
+}
+
+.button{ 
+	background: #00A6BB; 
+	padding: 10px 20px; 
+	font-size: 20px; 
+	border-radius: 10px; 
+	border: 1px solid #006996; 
+	color: #fff
+}
+
+.button:hover{ 
+	background: #FFDD00 ;  
+    color: darkslateblue;
+}
+
+.form-auto{ 
+	margin-left: auto; 
+	margin-right: auto
+}
+
+
+
+
+/*phân cột*/
+.row{ display:flex; flex-wrap:wrap }
+
+/*12 lưới*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%; }
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*--------- style cho ipad---tablet-------*/
+@media (min-width:768px)
+{
+
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+}
+.container{ width: 90%; margin: auto}
+
+/*--------- style cho pc 1000 tro len-------*/
+
+@media (min-width:1000px)
+	
+{
+	.navbar{
+		display: flex;
+	    justify-content: space-between ;
+	}
+	.buttonMenu{display: none; margin-top: 40;}
+	.menu{display: block;}
+	.menu ul{display: flex}
+	.col-lg-1 {width: 8.33%;}
+	.col-lg-2 {width: 16.66%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-4 {width: 33.33%;}
+	.col-lg-5 {width: 41.66%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-7 {width: 58.33%;}
+	.col-lg-8 {width: 66.66%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-10 {width: 83.33%;}
+	.col-lg-11 {width: 91.66%;}
+	.col-lg-12 {width: 100%;}
+	.container{ width: 80%; margin: auto}
+	
+}
+

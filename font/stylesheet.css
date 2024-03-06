@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'UTM Neutra';
+    src: url('UTMNeutra.eot');
+    src: url('UTMNeutra.eot?#iefix') format('embedded-opentype'),
+        url('UTMNeutra.woff2') format('woff2'),
+        url('UTMNeutra.woff') format('woff'),
+        url('UTMNeutra.ttf') format('truetype'),
+        url('UTMNeutra.svg#UTMNeutra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Bienvenue';
+    src: url('UTMBienvenue.eot');
+    src: url('UTMBienvenue.eot?#iefix') format('embedded-opentype'),
+        url('UTMBienvenue.woff2') format('woff2'),
+        url('UTMBienvenue.woff') format('woff'),
+        url('UTMBienvenue.ttf') format('truetype'),
+        url('UTMBienvenue.svg#UTMBienvenue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Androgyne';
+    src: url('UTMAndrogyne.eot');
+    src: url('UTMAndrogyne.eot?#iefix') format('embedded-opentype'),
+        url('UTMAndrogyne.woff2') format('woff2'),
+        url('UTMAndrogyne.woff') format('woff'),
+        url('UTMAndrogyne.ttf') format('truetype'),
+        url('UTMAndrogyne.svg#UTMAndrogyne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

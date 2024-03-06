@@ -1,0 +1,482 @@
+@charset "utf-8";
+
+@import url("Option.css");
+@import url("Style.css");
+@import url("owl.theme.default.css");
+@import url("all.css");
+@import url("Footer.css");
+
+
+
+body{
+	
+	 background: linear-gradient(90deg, rgba(36,0,0,1) 47%, rgba(241,0,0,1) 100%);
+	color: #583F2B; 
+	font-family:Tonos;
+	margin: 0;
+}
+footer{
+	background-color:rgba(29,27,28,1.00);
+	color: aliceblue;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	margin-bottom: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.socialnetwork{
+	position: absolute;
+	left: 0;
+}
+
+ [class*="col-"] {
+	padding:15px ;
+/*border: 2px solid red;*/
+}
+
+
+
+.center {  
+  	width: 90%;
+ 	margin: auto;	
+}
+
+.background{
+	position: relative;	
+	/*border: 1px solid red;*/
+}
+.logo{
+	position:fixed;
+	left: 0;
+	top: 0;
+	width: 12vw;
+	z-index: 99;
+}
+
+
+.Subject_item{
+	
+	border-radius: 20px;
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	top:20%;
+	padding: 10px 20px;
+	display: block;
+	color: aliceblue;
+	text-shadow: 1px 1px 2px black;
+}
+.slogan{
+	position: absolute;
+	width: 50%;
+	left: 15%;
+	top:30%;
+	display: block;
+	color: aliceblue;
+	text-shadow: 1px 1px 2px black;
+	
+}
+
+.slogan h1, .slogan h3, .slogan  p{	
+	
+}
+
+.slogan h3{	
+	font-size: 5vw;
+	font-family: Forte;
+	line-height: 0em;
+}
+
+.slogan h1{		
+	font-size: 6.5vw;
+	line-height: 1;
+}
+
+.slogan p{
+	
+	font-size: 2vw;	
+}
+
+.socialContact{position: absolute;
+	left: 2%;
+	top:30%;
+	width: 5%;
+}
+
+.subtitle {
+  	font-family: "Alex Brush";
+  	font-size: 30px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.boxshadow{
+    background-color: white;
+    box-shadow:0 0 5px #666;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px; 
+	margin-bottom: 20px;
+	height: 100%}
+
+
+
+
+/*khai báo vị trí*/
+.navbar{
+	position: relative;	
+}
+
+.navbar .buttonMenu{
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+.scrollup {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #46CFB0;
+    text-align: center;
+    line-height: 60px;
+    padding: 10px;
+    color: #fff;
+    z-index: 100;
+    display: none;
+    border-radius: 50%;
+}
+.scrollup:hover{
+    background: gold;
+}
+
+
+
+.SignUpForm{ 
+    padding: 10px; 
+	width: 100%; 
+	margin-top: 10px; 
+    margin-bottom: 10px; 
+	border: 1px solid #ccc; 
+    border-radius: 5px; 
+	font-size: 16px
+}
+
+#Signup label{ 
+	font-weight: bold; 
+	margin: 5px 0;
+	border-radius: 10px;
+}
+.ButtonMore{ 
+	font-family: 'UTM Neutra';
+	background: red; 
+	text-transform: uppercase;
+	margin: 10px 0px;
+	padding: 10px 30px;;
+	font-size: 2vw;
+	border-radius: 50px; 
+	color: #fff;
+}
+
+.ButtonMore:hover{ 
+	background: white ;  
+    color: red;
+}
+
+.ButtonSignIn{ 
+	font-family: 'UTM Neutra';
+	background: red; 
+	text-transform: uppercase;
+	padding-top: 50px;
+	padding: 20px; 
+	font-size: 1.5vw;
+	border-radius: 50px; 
+	color: #fff;
+	
+}
+
+
+.ButtonSignIn:hover{ 
+	background: white ;  
+    color: red;
+}
+.logoMain{
+	height: 56px;
+	width: auto;
+}
+
+.img100{
+	width:100%;
+padding: 0;
+}
+
+
+
+.form-auto{ 
+	margin-left: auto; 
+	margin-right: auto
+}
+
+
+
+.Introduce{
+	transition: transform 1s;}
+
+.Introduce a:hover{
+	transform: scale(1.2);
+	color: red;
+	
+}
+.Introduce p, .Introduce h1{
+	margin: 10px 20px;
+	
+}
+
+.Gallery{
+	color: white;
+	text-transform: uppercase;
+	padding:  20px 0;
+}
+
+
+.Gallery h2{
+	font-size: 3vw;
+}
+
+.Gallery p{
+	font-size: 3vw;
+}
+
+#GalleryButton{
+	padding: 20px 50px;
+}
+
+.gradientcolor{
+ background :rgba(196,196,196,1.00);
+}
+
+
+.box {
+  width: 100%;;
+  position: relative;
+  border: 1px solid #BBB;
+  background: #EEE;
+}
+
+.ButtonComercial{
+	font-family: 'UTM Neutra';
+	background: red; 
+	text-transform: uppercase;
+	margin: 10px 0px;
+	padding: 10px 40px;;
+	font-size: 2vw;
+	border-radius: 50px; 
+	color: #fff;
+	position: absolute;
+	left: 9%;
+	top: 67%;
+}
+.ButtonComercial:hover{ 
+	background: white ;  
+    color: red;
+}
+
+.ribbon {
+  position: absolute;
+  left: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#B6BAC9 0%, #808080 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; left: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #808080;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #808080;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #808080;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #808080;
+}
+
+.BlackMatte{
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 70%;
+		height: 100%;
+		background: linear-gradient(to right,rgba(0,0,0,0.7)  0%, rgba(0,0,0,0.00) 100%);
+	}
+
+/*phân cột*/
+.row{ display:flex; flex-wrap:wrap;}
+
+	
+
+
+/*12 lưới*/
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%; }
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {
+	padding: inherit;
+	width: 75%;
+}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/*--------- style cho ipad---tablet-------*/
+@media (min-width:768px)
+{
+	.Gallery h2{
+	font-size: 2vw;
+	
+}
+
+	.Gallery p{
+	font-size: 1.2vw;
+}
+	
+	.socialContact{
+		width: 8%;
+	}
+	
+	.Option:hover{
+		transform: scale(1.02);
+	}
+	.slogan{
+		
+		top:30%;
+	}
+	
+	#GalleryButton{
+	padding: 20px 100px;
+}
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+}
+.container{ width: 90%; margin: auto}
+
+/*--------- style cho pc 1000 tro len-------*/
+
+
+@media (min-width:1000px)
+	
+{
+	.ButtonMore{ 
+	font-size: 1vw;
+	padding: 10px 50px;
+	}
+	
+	.ButtonComercial{ 
+	font-size: 1vw;
+	padding: 10px 50px;
+	}
+	
+	
+	.Gallery h2{
+	font-size: 2vw;
+	padding-top: 10px;
+}
+
+	.Gallery p{
+	font-size: 1.2vw;
+}
+	
+	#Banner{
+		height: 800px;
+	}
+	.Option:hover{
+		transform: scale(1.2);
+	}
+	.slogan h3{	
+	font-size: 5vw;
+	font-family: Forte;
+		padding-bottom: 20px;
+}
+
+.slogan h1{	
+	font-size: 6.5vw;	
+	padding-bottom: 30px
+}
+
+.slogan p{
+	font-size: 2vw;	
+}
+	.socialContact{
+		width: 5%;
+	}
+
+	.navbar{
+		display: flex;
+	    justify-content: space-between ;
+	}
+	.buttonMenu{display: none; margin-top: 40;}
+	#GalleryButton{
+	padding: 20px 100px;
+}
+	.col-lg-1 {width: 8.33%;}
+	.col-lg-2 {width: 16.66%;}
+	.col-lg-3 {width: 25%;}
+	.col-lg-4 {width: 33.33%;}
+	.col-lg-5 {width: 41.66%;}
+	.col-lg-6 {width: 50%;}
+	.col-lg-7 {width: 58.33%;}
+	.col-lg-8 {width: 66.66%;}
+	.col-lg-9 {width: 75%;}
+	.col-lg-10 {width: 83.33%;}
+	.col-lg-11 {width: 91.66%;}
+	.col-lg-12 {width: 100%;}
+	.container{ width: 80%; margin: auto}
+	
+}
+

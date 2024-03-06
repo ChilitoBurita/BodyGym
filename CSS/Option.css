@@ -1,0 +1,27 @@
+@charset "utf-8";
+.Option{	
+	background: white;
+	display: block;
+	border-radius: 5px;
+	transition: transform 1s;
+	justify-content:space-between;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-top: 0;
+	overflow: hidden;
+	
+}
+
+
+.Option:hover{
+	transform:scale(1.1);
+	background: rgba(111,21,22,1.00);
+	color: white;
+	
+}
+.img80{
+	border-radius: 10px;
+	width: 95%;
+	padding:10px;
+	margin: 0;
+	}
