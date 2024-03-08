@@ -1,0 +1,54 @@
+@charset "utf-8";
+#BannerLienhe{
+	height: 500px; overflow: hidden;
+}
+.custom-select {
+	position: relative;
+	top:25%;background: rgba(50,1,1,1.00)
+	 
+}
+
+.custom-select select {
+	font-family: 'UTM Neutra';
+	text-transform: uppercase;
+	appearance: none;
+	-webkit-appearance: none;
+	width: 100%;
+	font-size: 15px;
+	padding: 5px 10px 5px 10px;
+	background-color:rgba(137,1,3,1.00)  ;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	color: whitesmoke;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+	line-height: 3em;
+}
+
+#line{
+	background: gold;
+}
+.custom-select select:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 5px;
+}
+.custom-select option{
+	background: rgba(60,2,3,1.00);
+	margin: 10px 0;
+}
+
+
+.custom-select::after {
+	content: "";
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	right: 10px;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	background-color: #000000;
+	clip-path: polygon(8% 17%, 0% 25%, 50% 84%, 100% 25%, 92% 17%, 50% 65%);
+}
